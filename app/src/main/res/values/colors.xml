@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="redBox">#FF0000</color>
+    <color name="blueBox">#2A44FF</color>
+    <color name="yellowBox">#FFDD00</color>
+    <color name="greenBox">#FF8C00</color>
+
+    <color name="background">#1BFF58</color>
+
+    <color name="walls">#8D0025</color>
+    <color name="wallOut">#454545</color>
+    <color name="testBox">#7CFFFFFF</color>
+    <color name="transtaparants">#5B000012</color>
+
+</resources>

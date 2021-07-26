@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fre">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@color/transtaparants" />
+
+    <ImageView
+        android:id="@+id/redBox"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="92dp"
+        android:background="@color/redBox" />
+
+    <ImageView
+        android:id="@+id/yellowBox"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="223dp"
+        android:background="@color/yellowBox" />
+
+    <ImageView
+        android:id="@+id/blueBox1"
+        android:layout_width="70dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="82dp"
+        android:background="@color/blueBox" />
+
+    <ImageView
+        android:id="@+id/blueBox2"
+        android:layout_width="70dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="82dp"
+        android:background="@color/blueBox" />
+
+    <ImageView
+        android:id="@+id/blueBox3"
+        android:layout_width="70dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="222dp"
+        android:background="@color/blueBox" />
+
+    <ImageView
+        android:id="@+id/blueBox4"
+        android:layout_width="70dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="221dp"
+        android:background="@color/blueBox" />
+
+    <ImageView
+        android:id="@+id/greenBox1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="361dp"
+        android:background="@color/greenBox" />
+
+    <ImageView
+        android:id="@+id/greenBox2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="362dp"
+        android:background="@color/greenBox" />
+
+    <ImageView
+        android:id="@+id/greenBox3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="293dp"
+        android:background="@color/greenBox" />
+
+    <ImageView
+        android:id="@+id/greenBox4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="294dp"
+        android:background="@color/greenBox" />
+
+    <ImageView
+        android:id="@+id/wallTop"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="56dp"
+        android:background="@color/walls" />
+
+    <ImageView
+        android:id="@+id/wallBottom"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="434dp"
+        android:background="@color/walls" />
+
+    <ImageView
+        android:id="@+id/wallRight"
+        android:layout_width="35dp"
+        android:layout_height="385dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="277dp"
+        android:background="@color/walls" />
+
+    <ImageView
+        android:id="@+id/wallLeft"
+        android:layout_width="35dp"
+        android:layout_height="385dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="305dp"
+        android:background="@color/walls" />
+
+    <ImageView
+        android:id="@+id/wallOut"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="436dp"
+        android:background="@color/walls" />
+
+    <ImageView
+        android:id="@+id/wallBottom3"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="532dp"
+        android:background="@android:color/transparent" />
+
+    <ImageView
+        android:id="@+id/testBox"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="378dp"
+        android:background="@color/testBox" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/loadBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@color/greenBox"
+            android:text="Load"
+            android:textColor="@android:color/background_light"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/restartGameBtn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/restartGameBtn" />
+
+        <Button
+            android:id="@+id/restartGameBtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_purple"
+            android:text="Restart"
+            android:textColor="@android:color/background_light"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/saveBtn"
+            app:layout_constraintEnd_toStartOf="@+id/saveBtn"
+            app:layout_constraintStart_toEndOf="@+id/loadBtn"
+            app:layout_constraintTop_toTopOf="@+id/saveBtn" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:background="@color/colorAccent"
+            android:text="Save"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintBottom_toBottomOf="@+id/mouvesText"
+            app:layout_constraintEnd_toStartOf="@+id/mouvesText"
+            app:layout_constraintTop_toTopOf="@+id/mouvesText" />
+
+        <TextView
+            android:id="@+id/mouvesText"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:gravity="center"
+            android:text="Moves :  2000"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
